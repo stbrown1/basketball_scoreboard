@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home {
+    color: #fff;
+    text-align: center;
+}
+
+#home h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    width: 150px;
+    margin: 70px 0px 20px 0px;
+}
+
+#guest {
+    color: #fff;
+    text-align: center;
+}
+
+#guest h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    width: 150px;
+    margin: 70px 0px 20px 0px;
+}
+
+#home-score-box {
+    display: flex;
+    justify-content: center;
+    background: #080001;
+    height: 120px;
+    width: 155px;
+    margin: 20px 0px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+#home-score-text {
+    margin: -75px;
+    font-size: 90px;
+    color: #F94F6D;
+}
+
+#guest-score-box {
+    display: flex;
+    justify-content: center;
+    background: #080001;
+    height: 120px;
+    width: 155px;
+    margin: 20px 0px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+
+
+}
+
+#guest-score-text {
+    margin:-75px;
+    font-size: 90px;
+    color: #F94F6D;
+}
+
+#home-score-one {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: none;
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    
+}
+
+#home-score-two {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: none;
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin: 0 6px;
+}
+
+#home-score-three {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: none;
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#guest-score-one {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: none;
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#guest-score-two {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: none;
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin: 0 6px;
+}
+
+#guest-score-three {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: none;
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}

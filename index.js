@@ -1,33 +1,34 @@
 let homeScore = document.getElementById("home-score")
 let guestScore = document.getElementById("guest-score")
-let count = 0
+let homeCount = 0
+let guestCount = 0
 
 function incrementHomeOne() {
-    count += 1
-    homeScore.textContent = count
+    homeCount += 1
+    homeScore.textContent = homeCount
 }
 
 function incrementHomeTwo() {
-    count += 2
-    homeScore.textContent = count
+    homeCount += 2
+    homeScore.textContent = homeCount
 }
 
 function incrementHomeThree() {
-    count += 3
-    homeScore.textContent = count
+    homeCount += 3
+    homeScore.textContent = homeCount
 }
 
 function incrementGuestOne() {
-    count += 1
-    guestScore.textContent = count
+    guestCount += 1
+    guestScore.textContent = guestCount
 }
 
 function incrementGuestTwo() {
-    count += 2
-    guestScore.textContent = count
+    guestCount += 2
+    guestScore.textContent = guestCount
 }
 
 function incrementGuestThree() {
-    count += 3
-    guestScore.textContent = count
+    guestCount += 3
+    guestScore.textContent = guestCount
 }
